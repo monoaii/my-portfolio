@@ -1,0 +1,66 @@
+body {
+  background-color: pink;
+  font-family: monospace, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.my-name {
+  font-size: larger;
+}
+
+.snow-main-photo {
+  border-radius: 20px;
+}
+
+.solid-line {
+  border: solid 1.6px rgba(255, 107, 132, 0.5);
+  width: 50%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 50px;
+}
+
+.nav-to-projects-page {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgba(226, 40, 114, 0.75);
+  transition: all 200ms ease-in-out;
+}
+
+.nav-to-projects-page:hover {
+  color: rgba(226, 40, 114, 0.85);
+  text-shadow: -4px 4px rgba(255, 255, 255, 0.75);
+}
+
+.nav-to-projects-page:visited {
+  color: rgb(110, 34, 181);
+}
+
+.my-social-media {
+  margin-top: 30px;
+  font-size: smaller;
+  color: rgba(63, 63, 63, 0.5);
+  line-height: 1.2rem;
+}
+
+.my-social-media-links {
+  color: rgba(226, 40, 114, 0.5);
+  text-decoration: none;
+}
+.my-social-media-links:hover {
+  text-decoration: underline;
+  color: rgba(226, 40, 114, 0.6);
+  transition: ease-in-out 200ms;
+}
+
+.my-social-media-links:visited {
+  color: rgb(110, 34, 181);
+}
