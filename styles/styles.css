@@ -42,8 +42,7 @@ p {
 }
 
 .nav-to-page:visited {
-  /* color: rgb(110, 34, 181); */
-  color: none;
+  color: rgb(110, 34, 181);
 }
 
 /* for footer */
@@ -65,8 +64,7 @@ p {
 }
 
 .my-social-media-links:visited {
-  /* color: rgb(110, 34, 181); */
-  color: none;
+  color: rgb(110, 34, 181);
 }
 
 /* style for my projects page */
