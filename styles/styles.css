@@ -4,12 +4,13 @@ body {
   text-align: center;
 }
 
-h1 {
-  text-align: center;
-}
-
 p {
   line-height: 2rem;
+}
+
+/* Snow name in homepage */
+.index-page-heading {
+  font-size: 40px;
 }
 
 .my-name {
@@ -28,39 +29,82 @@ p {
   border-radius: 50px;
 }
 
-.nav-to-projects-page {
+.nav-to-page {
   text-decoration: none;
   font-size: 30px;
   color: rgba(226, 40, 114, 0.75);
   transition: all 200ms ease-in-out;
 }
 
-.nav-to-projects-page:hover {
+.nav-to-page:hover {
   color: rgba(226, 40, 114, 0.85);
   text-shadow: -4px 4px rgba(255, 255, 255, 0.75);
 }
 
-.nav-to-projects-page:visited {
-  color: rgb(110, 34, 181);
+.nav-to-page:visited {
+  /* color: rgb(110, 34, 181); */
+  color: none;
 }
 
+/* for footer */
 .my-social-media {
   margin-top: 30px;
   font-size: smaller;
   color: rgba(63, 63, 63, 0.5);
-  line-height: 1.2rem;
+  line-height: 1.3rem;
 }
 
 .my-social-media-links {
   color: rgba(226, 40, 114, 0.5);
   text-decoration: none;
+  transition: ease-in-out 300ms;
 }
 .my-social-media-links:hover {
   text-decoration: underline;
   color: rgba(226, 40, 114, 0.6);
-  transition: ease-in-out 200ms;
 }
 
 .my-social-media-links:visited {
-  color: rgb(110, 34, 181);
+  /* color: rgb(110, 34, 181); */
+  color: none;
+}
+
+/* style for my projects page */
+.projects-heading {
+  font-size: 40px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px 50px;
+}
+
+.project-name-container {
+  display: flex;
+  align-items: center;
+  width: 384px;
+  height: 216px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.project-name {
+  font-size: 25px;
+}
+.project-cover-photo-container {
+  display: flex;
+}
+
+.project-cover-photo {
+  text-align: left;
+  border-radius: 30px;
+  opacity: 0.8;
+  transition: ease-in-out 300ms;
+  width: 384px;
+  height: 216px;
+}
+
+.project-cover-photo:hover {
+  opacity: 1;
+  transform: scale(1.05);
 }
