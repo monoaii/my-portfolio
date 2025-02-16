@@ -2,85 +2,99 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Homepage</title>
+    <title>❄️Snow C. : Fontend Developer from Seattle, WA</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/eaec582714.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
-      <h1 class="index-page-heading">WELCOME TO MY WORLD!</h1>
-    </header>
+    <div class="page-content">
+      <!-- sticky navigation bar -->
+      <div class="banner">
+        <ul class="banner-menu">
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="projects.html">PROJECT</a></li>
+          <li>
+            <a href="index.html"
+              ><img
+                src="images/snow-logo.png"
+                alt="snow logo for homepage"
+                class="snow-nav-logo"
+            /></a>
+          </li>
+          <li><a href="resume.html">RESUME</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
 
-    <section>
-      <h2>Hi, I'm <i class="my-name">Snow</i> ❄️</h2>
-      <article>
-        <h2>Let's get to know each other better</h2>
-        <p>
-          By day, I'm a customer service superhero, saving the world one problem
-          at a time!<br />
-          💼 But by night, I transform into a coding enthusiast, ready to
-          conquer the tech universe 🌐. <br />
-          I'm diving deep into the world of coding, and let’s be real— <br />
-          I'm seriously considering making a career switch and turning my
-          passion into my profession. 🚀💻
-        </p>
+      <!-- page content -->
+      <section class="main">
+        <div class="about-me-summary">
+          <h1 class="main-header">Hi, I'm Snow</h1>
+          <p class="main-paragraph">
+            A coding enthusiast based in Seattle, on a mission to conquer the
+            tech universe.
+          </p>
 
+          <p class="main-paragraph">
+            I turn 'meh' into 'wow' with a
+            <span class="sparkle">✨</span>sprinkle<span class="sparkle"
+              >✨</span
+            >
+            of code and a dash of style. Ready for some front-end magic?
+          </p>
+
+          <a href="#" target="_blank" class="check-out-my-work-button"
+            >check out my work</a
+          >
+        </div>
+        <div class="about-me-photo">
+          <img
+            src="images/its-me.JPG"
+            alt="picture of me eating food in Burger and lobster restaurnat in London"
+            class="main-photo"
+          />
+        </div>
+      </section>
+
+      <footer>
         <img
-          src="images/its-me.JPG"
-          alt="Snow eating food at burger and lobster restaurant in London"
-          width="235"
-          height="300"
-          class="snow-main-photo"
+          src="images/snow-logo.png"
+          alt="snow logo in rose pink color"
+          class="footer-logo"
         />
-
-        <p>
-          When I'm not geeking out over code, you can find me exploring new
-          places 🏙️, indulging in delicious foods🥘,<br />
-          and snapping photos to freeze the best moments in time.<br />
-          I'm all about growth—whether it’s leveling up my skills or expanding
-          my horizons— <br />
-          and I’m always on the lookout👀 for exciting new opportunities!
-        </p>
-      </article>
-    </section>
-
-    <hr class="solid-line" />
-
-    <nav>
-      <a href="projects.html" class="nav-to-page">✨My Projects✨</a>
-    </nav>
-
-    <hr class="solid-line" />
-
-    <footer class="my-social-media">
-      <div>
-        This page was Coded by
-        <a
-          href="https://github.com/monoaii"
-          target="_blank"
-          class="my-social-media-links"
-        >
-          Snow C.</a
-        >
-        and is on
-        <a
-          href="https://github.com/monoaii/my-portfolio"
-          target="_blank"
-          class="my-social-media-links"
-        >
-          GitHub
-        </a>
-      </div>
-      <div>
-        Follow me on Instagram:
-        <a
-          href="https://www.instagram.com/snowberrii"
-          target="_blank"
-          class="my-social-media-links"
-        >
-          @snowberrii
-        </a>
-      </div>
-    </footer>
+        <ul class="footer-link">
+          <li>
+            <a href="https://www.linkedin.com/in/termwanc/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/monoaii" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/snowberii" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:termwan.c@gmail.com" class="email-icon"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>
