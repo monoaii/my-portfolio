@@ -48,8 +48,8 @@ ul.banner-menu li a:hover {
 
 .main {
   display: flex;
-  padding: 0 80px;
-  height: 600px;
+  padding: 50px 100px;
+  min-height: calc(100vh - 240px);
 }
 
 .about-me-summary {
