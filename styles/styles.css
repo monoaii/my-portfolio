@@ -48,6 +48,14 @@ ul.banner-menu li a:hover {
 
 .main {
   display: flex;
+  justify-content: center;
+  padding: 50px 100px;
+  min-height: calc(100vh - 240px);
+}
+
+.main-sub-page {
+  display: flex;
+  flex-direction: column;
   padding: 50px 100px;
   min-height: calc(100vh - 240px);
 }
@@ -135,6 +143,7 @@ p.about-me-paragraph {
   grid-auto-rows: 100px 300px;
   grid-gap: 10px;
   grid-auto-flow: dense;
+  margin: 25px 0;
 }
 
 .gallery-item {
