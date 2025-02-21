@@ -56,6 +56,7 @@ ul.banner-menu li a:hover {
 .main-sub-page {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 50px 100px;
   min-height: calc(100vh - 240px);
 }
@@ -249,6 +250,67 @@ p.about-me-paragraph {
   100% {
     top: 50%;
   }
+}
+
+/* contact page */
+.contact-paragraph {
+  font-size: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  gap: 35px;
+  justify-content: center;
+}
+
+.contact-form textarea {
+  height: 150px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.contact-input {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Tsukimi Rounded", serif;
+  border-radius: 50px;
+}
+
+.contact-input:focus {
+  border: 2px solid #f0558a;
+}
+
+.contact-input::placeholder {
+  color: rgba(128, 128, 128, 0.6);
+}
+
+.contact-form button {
+  display: flex;
+  align-items: center;
+  padding: 15px 50px;
+  font-family: "Tsukimi Rounded", serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: pink;
+  gap: 10px;
+  border: none;
+  border-radius: 40px;
+  background: black;
+  transition: all 500ms ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #f0558a;
+  color: black;
+  cursor: pointer;
 }
 
 /* footer */
